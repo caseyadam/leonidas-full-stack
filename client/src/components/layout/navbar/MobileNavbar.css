@@ -1,0 +1,31 @@
+.registerBtn {
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #0F0E0F;
+}
+.navNarrow { 
+  background: #FFFEFF;
+  color: #0F0E0F;
+}
+.narrowLi{
+  width: 100%;
+  padding: 1em 0;
+  border-bottom: 1px solid grey;
+}
+/* .authLi{
+
+} */
+.narrowLink {
+  color: #0F0E0F;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1rem;
+  cursor: pointer
+}
+
+/* MEDIA QUERY */
+@media (min-width: 480px) {
+
+}

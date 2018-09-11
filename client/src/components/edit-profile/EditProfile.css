@@ -1,0 +1,47 @@
+.editProfile{
+    padding: 0 10%;
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1{
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+.submitBtn{
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #0F0E0F;
+    border: 1px solid #0F0E0F;
+    margin: 10px 0;
+    width: 100%;
+}
+.submitBtn:hover {
+    background: #137E86;
+    color: #FFFEFF;
+    cursor: pointer;
+}
+
+.backBtn{
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #0F0E0F;
+    border: 1px solid #0F0E0F;
+    margin: 10px 0;
+    width: 100%;
+}
+.backBtn:hover {
+    background: #0F0E0F;
+    color: #FFFEFF;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.builderImgContainer{
+  height: 100vh;
+  position: relative;  
+  background: black;
+}
+
+.builderImg{
+  height: 100vh;
+  position: relative;  
+  opacity: .2;
+  background: black;
+}
+
+
+.textContainer{
+  /* background: white; */
+  position: absolute;  
+  left: 50%;                        /* horizontal alignment */
+  top: 50%;                         /* vertical alignment */
+  transform: translate(-50%, -50%); /* precise centering; see link below */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 0;
+  border-radius: 25px;
+}
+
+.h1{
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.p{
+  font-size: 1rem;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.emoji{
+  height: 30px;
+  width: 30px;
+  margin: 7px 7px 30px;
+}
+

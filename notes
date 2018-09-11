@@ -1,0 +1,21 @@
+Use "npm run dev" to run both servers. Use this as default.
+
+DEPLOYMENT
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+1.
+$ heroku login
+
+Clone the repository
+Use Git to clone tranquil-cliffs-17574's source code to your local machine.
+
+2.
+$ heroku git:clone -a tranquil-cliffs-17574
+$ cd tranquil-cliffs-17574
+Deploy your changes
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+3.
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master

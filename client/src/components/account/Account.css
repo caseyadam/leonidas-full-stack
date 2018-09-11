@@ -1,0 +1,83 @@
+.authActionsContainer{
+    padding: 0 10%;
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+.h1{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E9E9E9;
+    font-size: 4rem;
+}
+
+.h2{
+    font-size: 2.2rem;
+    margin-top: 2%;
+}
+
+.routerLink{
+    text-decoration: none;
+    color: #67A2C0;
+}
+
+.p{
+    margin: 25px 0 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.editBtn{
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: #0F0E0F;
+    border: 1px solid #0F0E0F;
+    margin: 10px 0;
+    text-align: center;
+    width: 200px;
+}
+
+.editBtn:hover {
+    background: #67a2c0;
+    color: #FFFEFF;
+    cursor: pointer;
+}
+
+.deleteBtn{
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #0F0E0F;
+    border: 1px solid #0F0E0F;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 200px;
+}
+
+.deleteBtn:hover {
+    background: #B1112B;
+    color: #FFFEFF;
+    cursor: pointer;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+    .h1{
+        text-align: center;
+    }
+    .h2{
+        font-size: 2rem;
+        margin-top: 2%;
+    }
+}

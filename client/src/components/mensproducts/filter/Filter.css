@@ -1,0 +1,76 @@
+.filter {
+  /* background: #FAF7F5; */
+  width: 30%;
+  max-width: 300px;
+  display: inline-block;
+  /* float: left; */
+}
+.inside {
+  padding: 20px;
+  /* max-width: 300px; */
+}
+.select {
+  background: transparent;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #454545;
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.filters{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.filterLabel{
+  margin-bottom: 5px;
+  color: #454545;
+}
+.filters .title {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 1rem;
+  color: #828d9d;
+}
+.filters input[type=text] {
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.4rem;
+  width: 45%;
+  display: inline-block;
+  margin-right: 2.5%;
+  margin-bottom: 1rem;
+}
+.filters.extras label {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+.filters.extras label input[type=checkbox] {
+  float: right;
+}
+.sortOptions{
+  margin-bottom: 15px;
+}
+.minPrice{
+  width: 100%;
+  max-width: 100px;
+  color: #828d9d;
+}
+.maxPrice {
+  width: 100%;
+  max-width: 100px;
+  color: #828d9d;
+}
+
+@media (max-width: 600px) {
+  .filter {
+    max-width: 600px;
+    width: 100%;
+  }
+  .inside {
+    padding: 20px 20px 0;
+    /* max-width: 300px; */
+  }
+}

@@ -1,0 +1,128 @@
+.navWide {
+  background: #FFFEFF;
+  color: #0F0E0F;
+  overflow: auto;
+  padding: 0 5%;
+  display: none;
+}
+.titleContainer {
+  width: 25%;
+  padding-top: 1%;
+}
+.navLogoLink {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+.navTitle{
+  padding: 1.5%;
+}
+.helmetIcon {
+  height: 24px;
+  width: 24px;
+  float: left;
+  margin-right: 12px;
+}
+.navUlWide {
+  float: right;
+  padding: 1.5% 0;
+  width: 75%;
+  text-align: right;
+  /* display: block; */
+}
+.wideLi{
+  display: inline-block;
+}
+.wideLink {
+  color: #0F0E0F;
+  text-decoration: none;
+  padding: 7px 20px;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 0.9rem;
+  transition: 0.15s ease-in-out;
+  cursor: pointer
+}
+.wideLink:hover {
+  color: #FEDAAA;
+}
+.registerBtn {
+  font-size: .8rem;
+  font-weight: 300;
+  margin: 0px 7px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-align: center;
+  color: #0F0E0F;
+  border: 1px solid #0F0E0F;
+}
+.registerBtn:hover {
+  background: #0F0E0F;
+  color: #FFFEFF;
+  cursor: pointer;
+}
+.navLinkCart {
+  margin-top: 1%;
+  margin-left: 1%;
+  cursor: pointer
+}
+.cartIcon {
+  height: 24px;
+  width: 24px;
+}
+/* NARROW NAV */
+.bars{
+  height: 24px;
+  width: 24px;
+}
+/* 
+:global(.navNarrow) { 
+  display: none;
+  background: #FFFEFF;
+  color: #0F0E0F;
+  overflow: auto;
+  padding: 0 5%;
+  display: flex;
+}
+.navUlNarrow {
+  float: right;
+  padding: 1.5% 0;
+  width: 75%;
+  text-align: right;
+  display: none;
+}
+.narrowLi{
+  display: block;
+  float: right;
+  clear: right;
+  padding: 0.5em 0;
+}
+.narrowLink {
+  color: #0F0E0F;
+  text-decoration: none;
+  padding: 7px 20px;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 0.9rem;
+  transition: 0.15s ease-in-out;
+  cursor: pointer
+}
+.narrowLink:hover {
+  color: #FEDAAA;
+} */
+
+/* MEDIA QUERY */
+@media (min-width: 600px) {
+  .navWide{
+    display: flex
+  }
+  /* .navUlWide {
+    display: flex;
+  }
+  .navUlNarrow {
+    display: none;
+  }
+  .cartIcon{
+    display: block;
+  } */
+}
